@@ -95,7 +95,7 @@ em dash; use a comma, a colon, or a full stop.
 
 ## How to run
 
-**Rewrite mode (default).** Take the input text and:
+**Rewrite mode.** Take the input text and:
 1. Read the whole text first. Identify its purpose: instruction, description,
    or mixed.
 2. List the violations you found (rule number + the offending words). Keep
@@ -110,7 +110,7 @@ em dash; use a comma, a colon, or a full stop.
 **Audit mode.** When asked to audit (not rewrite), output only the violation
 report: rule number, quoted offending text, suggested fix, one line each.
 
-**Light mode.** For marketing copy, posts, or anything with a voice worth
+**Light mode (default).** For marketing copy, posts, or anything with a voice worth
 keeping, apply only rules 2, 4, 9, and 10, and say you did. Full STE strips
 personality by design; do not apply it to text that needs one unless asked.
 
